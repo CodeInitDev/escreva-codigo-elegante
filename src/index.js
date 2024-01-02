@@ -1,9 +1,9 @@
-import { cobrar } from './pagamento.js'
+import { cobrar } from './pagamento2.js'
 
 async function main() {
   await cobrar({
     valor: 10,
-    tipoPagamento: 'DEBITO',
+    tipoPagamento: 'PIX',
     cliente: {
       nome: 'Joao da Silva',
       email: 'joao@mail.com'
